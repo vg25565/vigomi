@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'MyCustomFont';
+  src: url('/fonts/Melodrama-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', alternate;
+    background-color: black;
+    font-family: 'Raleway',sans-serif;
+  }
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+  }
+
+
+  .bg-gradient-radial {
+    background: radial-gradient(
+      circle at 100% 107%,
+      #ff89cc 0%,
+      #9cb8ec 30%,
+      #00ffee 60%,
+      #62c2fe 100%
+    );
+  }
+  
+  
